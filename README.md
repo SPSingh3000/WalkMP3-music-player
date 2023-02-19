@@ -5,3 +5,5 @@ The project conains three separate files for better reading and organizing purpo
 1- player.html: includes the basic skeleton structure for the music player layout.
 2- styles.css: includes the formatting and styling options for better visuals.
 3- script.js: includes the main operations such as play, pause, next or previous song and a progress bar that shows the audio progression while playing a song.
+
+![peek](https://user-images.githubusercontent.com/55185044/219953154-518b02ea-ec96-460c-b645-f4eda17b09fa.jpg)
