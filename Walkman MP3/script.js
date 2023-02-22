@@ -1,6 +1,6 @@
 console.log("Let's vibe & relax a while!");
 
-//Initialize variables
+
 let songIndex = 0;
 let audioElement = new Audio('songs/1.mp3');
 let masterPlay = document.getElementById('masterPlay');
@@ -30,9 +30,6 @@ songItems.forEach((element, i)=>{
 })
 
 
-// audioElement.play()
-
-//handle play/pause click
 masterPlay.addEventListener('click', ()=>{
     if(audioElement.paused || audioElement.currentTime <= 0)
     {
@@ -49,7 +46,6 @@ masterPlay.addEventListener('click', ()=>{
     }
 })
 
-// Listen to events
 
 audioElement.addEventListener('timeupdate', ()=> {
    
